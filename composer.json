@@ -1,0 +1,31 @@
+{
+    "name": "hectorsiman/dynamic-mailer",
+    "description": "A customizable email notification plugin for PHP projects",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DynamicMailer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hector Siman",
+            "email": "your.email@example.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

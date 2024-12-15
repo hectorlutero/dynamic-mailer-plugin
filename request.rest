@@ -1,0 +1,11 @@
+@baseurl=http://localhost
+
+POST {{baseurl}}/api/send-post-update
+Content-Type: application/json
+
+{
+    "title": "test",
+    "content": "test",
+    "author": "test@test.com",
+    "to": "hectorsimandev@gmail.com"
+}
